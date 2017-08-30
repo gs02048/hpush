@@ -1,0 +1,14 @@
+
+启动zk：
+bin/zookeeper-server-start.sh config/zookeeper.properties& 
+
+启动kafka：
+
+bin/kafka-server-start.sh config/server.properties &
+
+消费消息：
+bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic KafkaPushsTopic --from-beginning
+
+
+
+admin/assets/dist/plan/create_plan_step_3.js admin/assets/js/plan/create_plan_step_3.js admin/protected/views/plan/createPlanStep3.html protected/views/web/planner/info.html
